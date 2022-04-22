@@ -17,4 +17,12 @@
     let y = 'Doe'
     console.log(`${x} <> ${y}`)
 
-    //
+    //22
+    let object = {
+        name: 'John',
+        surname: 'Dallas',
+        email: 'dallas_john22@gmail.com'
+    }
+    console.log(object.email)
+
+    
