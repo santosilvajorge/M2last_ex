@@ -42,10 +42,26 @@
     var randomArray = []
 
     for (i=0; i<100; i++) {
-        randomArray.push(parseInt(Math.random()*100))
+        randomArray.push(parseInt(Math.random()*10000))
     }
     console.log(randomArray)
 
     //27
-    let sortArray = randomArray.sort()
-    console.log(sortArray)
+    let max = randomArray[0];
+    for (let i = 0; i < randomArray.length; i++) {
+      if (randomArray[i] > max) {
+        max = randomArray[i];
+      }
+    }
+      console.log(max)
+
+      let min = randomArray[0];
+      for (let i = 0; i < randomArray.length; i++) {
+        if (randomArray[i] < min) {
+          min = randomArray[i];
+        }
+      }
+        console.log(min)
+
+    
+    //28
