@@ -65,3 +65,22 @@
 
     
     //28
+    let masterArray = []
+    let firstArray = []
+    let secondArray = []
+    let thirdArray = []
+
+    for (i=0; i<10; i++) {
+        firstArray.push(parseInt(10*Math.random()))
+        secondArray.push(parseInt(10*Math.random()))
+        thirdArray.push(parseInt(10*Math.random()))
+    }
+
+    masterArray.push(firstArray) 
+    masterArray.push(secondArray)
+    masterArray.push(thirdArray)
+    console.log(masterArray)
+
+
+    //
+   
