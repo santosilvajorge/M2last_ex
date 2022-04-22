@@ -25,4 +25,6 @@
     }
     console.log(object.email)
 
-    
+    //23
+    delete object["email"]
+    console.log(object)
