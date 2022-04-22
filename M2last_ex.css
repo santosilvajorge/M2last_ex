@@ -44,4 +44,5 @@ a {
     justify-content: center;  
     width: 200px;
     margin: auto;
+    border-radius: 10%;
 }
