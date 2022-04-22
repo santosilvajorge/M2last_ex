@@ -28,3 +28,24 @@
     //23
     delete object["email"]
     console.log(object)
+
+    //24
+    let myArray = ['Arnald', 'Bob', 'Clara', 'David', 'Elvis', 'Fred', 'George', 'Hector', 'Isabel', 'John']
+    console.log(myArray)
+    
+    //25
+    for (i=0; i < myArray.length; i++){
+        console.log(myArray[i])
+    }
+
+    //26
+    var randomArray = []
+
+    for (i=0; i<100; i++) {
+        randomArray.push(parseInt(Math.random()*100))
+    }
+    console.log(randomArray)
+
+    //27
+    let sortArray = randomArray.sort()
+    console.log(sortArray)
