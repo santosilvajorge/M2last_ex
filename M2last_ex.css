@@ -50,3 +50,9 @@ a {
 p {
     margin: 10px 0 10px 0;
 }
+
+.title:hover {
+    font-size: 150px;
+    font-weight: 1500;
+
+}
