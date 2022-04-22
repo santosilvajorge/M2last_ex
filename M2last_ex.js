@@ -9,7 +9,8 @@
         27) Write a function to get the maximum and minimum values from the previously created array
         28) Create an array of arrays, in which every array has 10 random numbers
         29) Create a function that gets 2 arrays as parameters and returns the longest one
-        30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
+        30) Create a function that gets 2 arrays of numbers as parameters and returns the one
+         with the higher sum of values
  */
 
     //21
@@ -82,5 +83,14 @@
     console.log(masterArray)
 
 
-    //
+    //29
+   const arrayA = [1, 3, 5, 7, 9]
+   const arrayB = [2, 4, 6, 8]
+
+   if (arrayA.length > arrayB.length) {
+       console.log(arrayA)
+   } else {
+       console.log(arrayB)
+   }
+
    
