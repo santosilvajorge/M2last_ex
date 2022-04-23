@@ -159,4 +159,9 @@
     const pRed = document.getElementsByTagName('p')[0]
     pRed.style.backgroundColor = 'red'
 
+    //38
+    window.addEventListener('load', (event) => {
+        console.log(alert('Page loaded'));
+      });
+
     
