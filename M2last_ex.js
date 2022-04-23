@@ -127,4 +127,7 @@
     //31
     let container = document.getElementById('container')
 
+    //32
+    let tdClass = document.getElementsByClassName('td')
+
     //
