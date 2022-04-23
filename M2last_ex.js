@@ -121,7 +121,8 @@
         35) Write a function to add an extra row to the table
         36) Write a function to add a class of "test" to each row 
         in the table
-        37) Write a function to add a red background to every link in the page
+        37) Write a function to add a red background to every link 
+        in the page
         38) Console log "Page loaded" when the page is correctly loaded
         39) Write a function to add new items to a unordered list
         40) Write a function to empty a list */
@@ -147,10 +148,15 @@
     const newRow = document.createElement('tr')
     table.append(newRow)
 
-    //36
+    //36 - Write a function to add a class of "test" to each row in the table
     const trClass = document.querySelector('tr')
         for (i=0; i < 8; i++){
         trClass.classList.add('test')
+        }
         //cannot add to all tr
         
-    }
+    //37 no link is visible so will add to the "p"
+    const pRed = document.getElementsByTagName('p')[0]
+    pRed.style.backgroundColor = 'red'
+
+    
