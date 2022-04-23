@@ -119,7 +119,8 @@
          <td> element in the page
         34) Write a function to change the heading of the page
         35) Write a function to add an extra row to the table
-        36) Write a function to add a class of "test" to each row in the table
+        36) Write a function to add a class of "test" to each row 
+        in the table
         37) Write a function to add a red background to every link in the page
         38) Console log "Page loaded" when the page is correctly loaded
         39) Write a function to add new items to a unordered list
@@ -141,4 +142,9 @@
    let header = document.getElementsByTagName('h1')[0]
    header.append(' mokkkkkkaaaaa')
 
-   
+    //35
+    const table = document.getElementsByTagName('tbody')[0]
+    const newRow = document.createElement('tr')
+    table.append(newRow)
+
+    
