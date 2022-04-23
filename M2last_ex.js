@@ -161,7 +161,12 @@
 
     //38
     window.addEventListener('load', (event) => {
-        console.log(alert('Page loaded'));
+        console.log('Page loaded');
       });
+
+    //39
+    const newElement = document.createElement('li')
+    const elementLocation = document.querySelector('ul')
+    elementLocation.appendChild(newElement)
 
     
