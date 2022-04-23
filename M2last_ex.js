@@ -169,4 +169,7 @@
     const elementLocation = document.querySelector('ul')
     elementLocation.appendChild(newElement)
 
-    
+    //40
+    for (i=0; i<elementLocation.clientHeight; i++) {
+        elementLocation.remove()
+    }
