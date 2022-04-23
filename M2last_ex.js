@@ -147,4 +147,10 @@
     const newRow = document.createElement('tr')
     table.append(newRow)
 
-    
+    //36
+    const trClass = document.querySelector('tr')
+        for (i=0; i < 8; i++){
+        trClass.classList.add('test')
+        //cannot add to all tr
+        
+    }
