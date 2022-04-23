@@ -111,11 +111,12 @@
    console.log(` Sum of Array A = ${sumA}, Sum of Array B = ${sumB}, since A higher than B, we will have as output the Array A`)
 
 
-   /* DOM EXERCISES
+        /* DOM EXERCISES
 
         31) Get the element with an id of "container" from the page
         32) Get every <td> element from the page
-        33) Use a loop for printing the text inside of every <td> element in the page
+        33) Use a loop for printing the text inside of every
+         <td> element in the page
         34) Write a function to change the heading of the page
         35) Write a function to add an extra row to the table
         36) Write a function to add a class of "test" to each row in the table
@@ -125,9 +126,15 @@
         40) Write a function to empty a list */
 
     //31
-    let container = document.getElementById('container')
+    var container = document.getElementById('container')
 
     //32
-    let tdClass = document.getElementsByClassName('td')
+    let tdClass = document.getElementsByTagName('td')
 
-    //
+    //33
+    for (i=0; i<tdClass.length; i++) {
+        
+        tdClass[i].append(' M ')
+    }
+
+    
