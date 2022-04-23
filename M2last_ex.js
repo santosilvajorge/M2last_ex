@@ -93,4 +93,19 @@
        console.log(arrayB)
    }
 
+   //30
+   var sumA = 0
+   var sumB = 0
+   for (i=0; i<arrayA.length; i++){
+       sumA += arrayA[i]
+   }
+   for (i=0; i<arrayB.length; i++){
+       sumB += arrayB[i]
+   }
    
+   if (sumA > sumB) {
+       console.log(arrayA)
+   } else {
+       console.log(arrayB)
+   }
+   console.log(` Sum of Array A = ${sumA}, Sum of Array B = ${sumB}, since A higher than B, we will have as output the Array A`)
