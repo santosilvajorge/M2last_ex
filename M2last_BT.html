@@ -1,3 +1,7 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+
 <!--
         QUIZ GAME!
 
@@ -29,9 +33,7 @@
         */
     -->
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
+    
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -90,7 +92,7 @@
 
         <div id="question2" class="questionNumber">
           Question 2
-          <p>Jurgen Klopp began his manager career ay which German club?</p>
+          <p>Jurgen Klopp began his manager career at which German club?</p>
           Borussia Dortmund<input type="checkbox" class="1stAnswer">
           <br>
           <br>
@@ -100,7 +102,7 @@
       
       <div id="question3" class="questionNumber">
         Question 3
-        <p>Lewis Hamilton won the Formula One World Driver’s title in 2020, but what is the name of his Mercedes teammate who came second?</p>
+        <p>Lewis Hamilton won the Formula One World Drivers title in 2020, but what is the name of his Mercedes teammate who came second?</p>
         Valtteri Bottas<input type="checkbox" class="1stAnswer" id="correctAnswer">
         <br>
         <br>
@@ -172,6 +174,8 @@
         2009<input type="checkbox" class="2stAnswer" id="correctAnswer">
       </div>
 
+      <div id="score"><input type="button" class="submit" name="submit" onclick="result()" value="submit"></div>
+
       <script>
        /* 
         / Keep a global variable score for the user score
@@ -182,7 +186,19 @@
         / Start with the easier version and THEN implement the EXTRAs
         / Please debug everything / try it on the console to be sure of what to expect from your code */
 
+        var score = 0;
+        const checkScore = document.querySelector('#correctAnswer');
+
+        function result () {
+          if (checkScore.checked){
+            score++;
+          }
+          alert(`Your score for this Quiz is ${score}points!`)
+        }
+
         
+        
+
 
       </script>
     </body>
