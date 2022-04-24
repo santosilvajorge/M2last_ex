@@ -36,7 +36,32 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Sports QUIZ</title>
+      <style>
+        body{
+          font-family: cursive, sans-serif;
+          background-image: url('https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        }
 
+        h1 {
+          color: white;
+        }
+
+        h2, .list {
+          color: rgba(200, 235, 148, 0.795)
+        }
+        .questionNumber {
+          padding: 30px;
+          border: 2px solid black;
+          margin: 5px;
+          background: rgba(1, 65, 1, 0.507);
+          color: white;
+        }
+
+        .questionNumber p {
+          font-size: x-large;
+          font-weight: 800;
+        }
+      </style>
     </head>
     <body>
       <H1>Welcome to the Real SPORTS QUIZ</H1>
@@ -54,76 +79,96 @@
 
       <div class="quizQuestions">
 
-        <div id="question1">
+        <div id="question1" class="questionNumber">
           Question 1
           <p>Who was the top scorer in the 2019/20 Premier League season?</p>
           Harry Kane<input type="checkbox" class="1stAnswer">
+          <br>
+          <br>
           Jamie Vardy<input type="checkbox" class="2stAnswer" id="correctAnswer" >
         </div>
 
-        <div id="question2">
+        <div id="question2" class="questionNumber">
           Question 2
           <p>Jurgen Klopp began his manager career ay which German club?</p>
           Borussia Dortmund<input type="checkbox" class="1stAnswer">
+          <br>
+          <br>
           Mainz 05<input type="checkbox" class="2stAnswer" id="correctAnswer">
         </div>
       </div>
       
-      <div id="question3">
+      <div id="question3" class="questionNumber">
         Question 3
         <p>Lewis Hamilton won the Formula One World Driver’s title in 2020, but what is the name of his Mercedes teammate who came second?</p>
         Valtteri Bottas<input type="checkbox" class="1stAnswer" id="correctAnswer">
+        <br>
+        <br>
         George Russell<input type="checkbox" class="2stAnswer" >
       </div>
 
 
-      <div id="question4">
+      <div id="question4" class="questionNumber">
         Question 4
         <p>True or false: Skateboarding was due to make its Olympic debut at Tokyo 2020</p>
         True<input type="checkbox" class="1stAnswer" id="correctAnswer">
+        <br>
+        <br>
         False<input type="checkbox" class="2stAnswer" >
       </div>
 
-      <div id="question5">
+      <div id="question5" class="questionNumber">
         Question 5
         <p>Complete the name of the current NBA champions: Toronto _____</p>
         Raptors<input type="checkbox" class="1stAnswer" id="correctAnswer">
+        <br>
+        <br>
         Knights<input type="checkbox" class="2stAnswer" >
       </div>
 
 
-      <div id="question6">
+      <div id="question6" class="questionNumber">
         Question 6
         <p>Where is the next Olympic Games set to take place?</p>
         Tokyo<input type="checkbox" class="1stAnswer">
+        <br>
+        <br>
         Paris<input type="checkbox" class="2stAnswer" id="correctAnswer">
       </div>
 
-      <div id="question7">
+      <div id="question7" class="questionNumber">
         Question 7
         <p>Did Cristiano Ronaldo score more goals or play more games for Real Madrid in all competitions?</p>
         More Games<input type="checkbox" class="1stAnswer">
+        <br>
+        <br>
         More Goals<input type="checkbox" class="2stAnswer" id="correctAnswer">
       </div>
 
-      <div id="question8">
+      <div id="question8" class="questionNumber">
         Question 8
         <p>What is Muhammad Ali’s real name?</p>
         Cassius Clay<input type="checkbox" class="1stAnswer" id="correctAnswer">
+        <br>
+        <br>
         Ray Robinson<input type="checkbox" class="2stAnswer" >
       </div>
 
-      <div id="question9">
+      <div id="question9" class="questionNumber">
         Question 9
         <p>The Chicago Cubs and Boston Red Sox play which sport?</p>
         American Football<input type="checkbox" class="1stAnswer">
+        <br>
+        <br>
         Baseball<input type="checkbox" class="2stAnswer" id="correctAnswer">
       </div>
 
-      <div id="question10">
+      <div id="question10" class="questionNumber">
         Question 10
         <p>Usain Bolt is still the fastest man in the world, running 100m in 9.58 seconds. In which year did he set that record?</p>
         2013<input type="checkbox" class="1stAnswer">
+        <br>
+        <br>
         2009<input type="checkbox" class="2stAnswer" id="correctAnswer">
       </div>
     </body>
